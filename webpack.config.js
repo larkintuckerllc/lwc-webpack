@@ -7,7 +7,7 @@ module.exports = env => {
   return {
     devtool: env.MODE === 'development' ? 'inline-source-map' : 'none',
     devServer: {
-      contentBase: './dist'
+      contentBase: './dist',
     },
     entry: './src/index.js',
     output: {
