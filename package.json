@@ -1,0 +1,24 @@
+{
+  "name": "lwc-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env.MODE=production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --env.MODE=development --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "lwc-webpack-plugin": "^0.2.0",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@lwc/engine": "^1.0.0"
+  }
+}
